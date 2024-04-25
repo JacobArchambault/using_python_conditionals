@@ -10,8 +10,8 @@ def fizzbuzz(num):
     else:
         return num
 
-value = int(input("Enter an integer value: "))
-numbers = list(range(value))
+value = int(input("How many values should we process? "))
+numbers = range(1, value + 1)
 for n in numbers:
     print(fizzbuzz(n))
 
